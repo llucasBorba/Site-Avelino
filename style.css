@@ -57,7 +57,7 @@ nav p {
 #slogan p{
     font-size: 10em;
     font-family: serif;
-    font-weight:400;
+    font-weight:350;
     line-height: 140px;
     font-family: 'Navitism', sans-serif;
 }
@@ -66,6 +66,7 @@ nav p {
     font-size: 2.5em;
     font-weight: 200;
     font-family: "Poppins", sans-serif;
+    
 }
 
 #slogan p span{
@@ -77,4 +78,3 @@ nav p {
     height: 40px;
 
 }
-
