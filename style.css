@@ -76,5 +76,65 @@ nav p {
 
 #arrow svg {
     height: 40px;
+    margin-top: 120px;
 
 }
+
+#sobre{
+    background-color: #192432;
+    display: flex;
+    justify-content: center;
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 60vw;
+    gap: 100px;
+    background-color:#111822;;
+}
+
+#about-info{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.about-title{
+    font-size: 5.5em;   
+    font-family: 'Navitism', sans-serif;
+    color: #C98264;
+    text-align: center;
+}
+
+#about-text p{
+    max-width: 50%;
+}
+
+#about-picture img{
+    height:600px;
+}
+
+.about-text{
+    color: white;
+    font-size: 1.3em;
+}
+
+.info-button{
+    color: #C98264;
+    background-color: unset;
+    padding: 10px 30px;
+    border-color: #C98264;
+    border-radius: 10px;
+    font-weight: 200;
+    font-size: large;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
