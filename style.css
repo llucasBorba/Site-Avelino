@@ -2,22 +2,12 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: "Poppins", sans-serif;
 }
 
 body{
     overflow-x: hidden;
-}
-
-.overlay-img{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 30%;
-    z-index: -1;
-    user-select: none;
 }
 
 section{
@@ -28,8 +18,16 @@ align-items: center;
 }
 
 #main{
-    z-index: 2;
-    opacity: 90%;
+    background-color: #16202c;
+    align-items: start;
+}
+
+.img-bg{
+    position: absolute ;
+    right: 0;
+    height: 100vh;
+    user-select: none;
+    padding-top: 100px;
 }
 
 nav{
@@ -38,6 +36,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 90vw;
+    z-index: 2;
 }
 
 nav img{
@@ -53,46 +52,55 @@ nav p {
  font-size: 1.5em;
  font-style: italic;
  font-weight: 300;
+ 
 }
 
 #info{
  display: flex;
- align-items: center;
  gap: 120px;
  margin: 150px;
- justify-content: center;
-
 }
 
 #info img{
     height: 500px;
 }
 
+#slogan{
+    z-index: 2;
+}
+
 
 #slogan p{
-    font-size: 10em;
+    font-size: 7em;
+    padding-top: 50px;
     font-family: serif;
     font-weight:350;
-    line-height: 140px;
     font-family: 'Navitism', sans-serif;
+    color: #C98264;
+    z-index: 3;
 }
 
 #slogan .sub-title{
+    padding-top: 0px;
     font-size: 2.5em;
     font-weight: 200;
     font-family: "Poppins", sans-serif;
+    color: white;
     
 }
 
 #slogan p span{
-    color: #002147;
+    color: white;
     font-family: 'Young Serif', sans-serif;
 }
 
 #arrow svg {
     height: 40px;
-    margin-top: 120px;
-
+    fill: white;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #sobre{
@@ -103,7 +111,7 @@ nav p {
 
 .line{
     position: absolute;
-    height: 150em;
+    height: 127em;
     width: 5px;
     background-color: #C98264;
     z-index: 1;

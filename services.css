@@ -1,0 +1,54 @@
+.services{
+    background-image: url(images/bg.png);
+    background-position: 20px;
+}
+
+.solid-bg{
+    background: rgb(25,36,50);
+    background: linear-gradient(90deg, rgba(25,36,50,0.4458158263305322) 0%, rgba(25,36,50,1) 55%);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.action{
+    z-index: 1;
+}
+.action-title{
+    text-align: center;
+    color:#C98264;
+    font-size: 4em;
+    font-weight: 500;   
+    padding-top: 90px;
+}
+
+.action-title span{
+    color: white;
+}
+
+.stair{
+    z-index: 1;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.stair p{
+    font-size: 1.3em;
+    color: white;
+}
+
+#first{
+    margin-right: 200px;
+}
+#second{
+margin: auto;
+}
+#third{
+    margin-left: 200px;
+}
+#fourth{
+    margin-left: 400px;
+}
