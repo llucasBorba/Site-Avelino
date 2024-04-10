@@ -15,6 +15,7 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 align-items: center;
+background: rgb(25,36,50);
 }
 
 #main{
@@ -50,7 +51,6 @@ nav img{
 
 nav p {
  font-size: 1.5em;
- font-style: italic;
  font-weight: 300;
  
 }
@@ -78,6 +78,7 @@ nav p {
     font-family: 'Navitism', sans-serif;
     color: #C98264;
     z-index: 3;
+    
 }
 
 #slogan .sub-title{
@@ -143,6 +144,7 @@ nav p {
     font-size: 5.5em;   
     font-family: 'Navitism', sans-serif;
     color: #C98264;
+    font-style:italic;
 }
 
 #about-text p{
@@ -156,7 +158,9 @@ nav p {
 
 .about-text{
     color: white;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-weight: 150;
+
 }
 
 .info-button{
