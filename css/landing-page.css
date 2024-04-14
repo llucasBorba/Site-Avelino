@@ -1,0 +1,183 @@
+#main{
+    background-color: #16202c;
+    align-items: start;
+}
+
+.img-bg{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(12%, -50%);
+}
+
+#img-logo{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin: 60px;
+    z-index: 2;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.nav-itens{
+    position: absolute;
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+    right: 0;
+    top: 0;
+}
+
+#info{
+    position: absolute;
+    bottom: 28%;
+    left: 5%;
+    z-index: 2;
+}
+
+#slogan .title{
+    line-height: 80%;
+    letter-spacing: 5px;
+    font-size: 8em;
+    font-weight: 100;
+    font-family: 'Navitism', sans-serif;
+    /* font-family: "Cinzel", serif; */
+    color: #c98264;
+}
+
+#slogan .sub-title{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+
+#slogan p span{
+    color: white;
+    font-family: 'Young Serif', sans-serif;
+}
+
+#arrow svg {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
+    height: 30px;
+    fill: white;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) { 
+    #info{
+        position: absolute;
+        text-align: center;
+        bottom: 55%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 2;
+    }
+
+    #slogan .title{
+        font-size: 7vh;
+        line-height: 90%;
+    }
+
+    .img-bg{
+        max-width: 100vw;
+        height: auto;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    #slogan .sub-title{
+        font-size: 1.2em;
+        font-weight: 200;
+    } 
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #info{
+        max-width: 70%;
+    }
+
+    #slogan .title{
+        font-size: 6.5em;
+        line-height: 90%;
+    }
+
+    .img-bg{
+        height: 60%;
+        right: -30%;
+    }
+
+    #slogan .sub-title{
+        font-size: 1.5em;
+        font-weight: 200;
+    } 
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #info{
+        max-width: 50%;
+    }
+
+    #slogan .title{
+        font-size: 8em;
+        line-height: 90%;
+    }
+
+    .img-bg{
+        height: 65%;
+        right: -20%;
+    }
+
+    #slogan .sub-title{
+        font-size: 1.5em;
+        font-weight: 200;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #info{
+        max-width: 50%;
+    }
+
+    #slogan .title{
+        font-size: 8.5em;
+        line-height: 90%;
+    }
+
+    .img-bg{
+        height: 70%;
+        right: -15%;
+    }
+
+    #slogan .sub-title{
+        font-size: 2em;
+        font-weight: 200;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1450px) { 
+    #slogan .title{
+        font-size: 8em;
+    }
+
+    #info{
+        max-width: 100%;
+    }
+
+    .img-bg{
+        height: 85%;
+        right: -5%;
+    }
+
+    #slogan .sub-title{
+        font-size: 2.5em;
+        font-weight: 200;
+    }
+ }

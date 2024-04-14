@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,102 +8,23 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
 body{
     overflow-x: hidden;
 }
 
 section{
-height: 100vh;
-display: flex;
-flex-direction: column;
-align-items: center;
-background: rgb(25,36,50);
-}
-
-#main{
-    background-color: #16202c;
-    align-items: start;
-}
-
-.img-bg{
-    position: absolute ;
-    right: 0;
     height: 100vh;
-    user-select: none;
-    padding-top: 100px;
-}
-
-nav{
     display: flex;
-    padding: 40px;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 90vw;
-    z-index: 2;
-}
-
-nav img{
-    height:120px;
-}
-
-
-.nav-item{
-    margin: 20px;
-}
-
-nav p {
- font-size: 1.5em;
- font-weight: 300;
- 
-}
-
-#info{
- display: flex;
- gap: 120px;
- margin: 150px;
-}
-
-#info img{
-    height: 500px;
-}
-
-#slogan{
-    z-index: 2;
-}
-
-
-#slogan p{
-    font-size: 7em;
-    padding-top: 50px;
-    font-family: serif;
-    font-weight:350;
-    font-family: 'Navitism', sans-serif;
-    color: #C98264;
-    z-index: 3;
-    
-}
-
-#slogan .sub-title{
-    padding-top: 0px;
-    font-size: 2.5em;
-    font-weight: 200;
-    font-family: "Poppins", sans-serif;
-    color: white;
-    
-}
-
-#slogan p span{
-    color: white;
-    font-family: 'Young Serif', sans-serif;
-}
-
-#arrow svg {
-    height: 40px;
-    fill: white;
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background: rgb(25,36,50);
 }
 
 #sobre{
