@@ -68,15 +68,12 @@
 
 /* Responsiveness for mobile devices */
 @media (max-width: 767px) {
-    .solid-bg{
-        min-height: 120vh;
-    }
     .action{
         gap: 2rem;
-        margin: 1rem;
     }
     .action-title{
         font-size: 2rem;
+        padding: 1rem;
     }
 
     .step{
@@ -98,18 +95,57 @@
 
 /* Responsiveness for tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
+    .solid-bg{
+        min-height: 100vh;
+    }
+    .action{
+        gap: 2rem;
+    }
+    .action-title{
+        font-size: 3rem;
+    }
+
+    .step{
+        max-width:70vw
+    }
+    .step .title h1{
+        font-size: 1.5rem;
+    }    
+
+    .stair p{
+        font-size: 1.2em;
+    }
+
+    .stair .number{
+        font-size: 7em;
+        min-width: 4rem;
+    }
 }
 
 /* Responsiveness for larger screens */
 @media (min-width: 1024px) {
     /* Add your larger screen styles here */
+        .services{
+            background-image: url(../images/bg.png);
+            background-position: 20px;
+        }
+
+        .action{
+            min-width: 100vw;
+        }
+
+        .stair{
+            align-items: end;
+        }
+
+        #first{
+            padding-right: 15%;
+        }
+
         #second{
-            padding-left: 35%;
+            padding-right: 10%;
         }
         #third{
-            padding-left: 45%;
-        }
-        #fourth{
-            padding-left: 55%;
+            padding-right: 5%;
         }
 }

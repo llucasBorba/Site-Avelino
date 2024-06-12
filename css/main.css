@@ -8,11 +8,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-html{
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-}
-
 body{
     overflow-x: hidden;
 }
