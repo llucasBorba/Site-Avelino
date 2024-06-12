@@ -18,7 +18,7 @@ body{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,59 +43,6 @@ section{
     overflow: hidden;
 }
 
-#about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    width: 72vw;
-    gap: 100px;
-    z-index: 2;
-    background-color:#111822;
-    box-shadow: 10px 10px 79px 2px rgba(0,0,0,0.75);    /* border: 1px solid #C98264; */
-}
 
-#about-info{
-    max-width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    
-}
-
-.about-title{
-    font-size: 5.5em;   
-    font-family: 'Navitism', sans-serif;
-    color: #C98264;
-    font-style:italic;
-}
-
-#about-text p{
-    max-width: 50%;
-}
-
-#about-picture img{
-    height:600px;
-    border-radius: 10px;
-}
-
-.about-text{
-    color: white;
-    font-size: 1.4em;
-    font-weight: 150;
-
-}
-
-.info-button{
-    color: #C98264;
-    background-color: unset;
-    padding: 10px 30px;
-    border-color: #C98264;
-    border-radius: 10px;
-    font-weight: 200;
-    font-size: large;
-    border-style: solid;
-    border-width: 1px;
-}
 
 

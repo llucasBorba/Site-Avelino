@@ -1,0 +1,115 @@
+.services{
+    background-image: url(../images/bg.png);
+    background-position: 450px;
+}
+
+.solid-bg{
+    background: rgb(25,36,50);
+    background: linear-gradient(90deg, rgba(25,36,50,0.4458158263305322) 0%, rgba(25,36,50,1) 50%);
+    min-height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.action{
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.action-title{
+    text-align: center;
+    color:#C98264;
+    font-size: 4em;
+    font-weight: 500;   
+    padding-top: 30px;
+}
+
+.action-title span{
+    color: white;
+}
+
+.stair{
+    z-index: 1;
+    min-height: 80vh;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.step{
+    max-width:30%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.step .title h1{
+    font-weight: 500;
+    font-size: 1.3;
+}
+
+.stair .number{
+    font-size: 7em;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:#C98264;
+    color: #c9826400;
+}
+
+.stair p{
+    font-size: 1.1em;
+    color: white;
+    padding-top: 5px;
+    font-weight: 100;
+}
+
+/* Responsiveness for mobile devices */
+@media (max-width: 767px) {
+    .solid-bg{
+        min-height: 120vh;
+    }
+    .action{
+        gap: 2rem;
+        margin: 1rem;
+    }
+    .action-title{
+        font-size: 2rem;
+    }
+
+    .step{
+        max-width:80vw
+    }
+    .step .title h1{
+        font-size: 1rem;
+    }    
+
+    .stair p{
+        font-size: 0.9em;
+    }
+
+    .stair .number{
+        font-size: 6em;
+        min-width: 4rem;
+    }
+}
+
+/* Responsiveness for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Responsiveness for larger screens */
+@media (min-width: 1024px) {
+    /* Add your larger screen styles here */
+        #second{
+            padding-left: 35%;
+        }
+        #third{
+            padding-left: 45%;
+        }
+        #fourth{
+            padding-left: 55%;
+        }
+}
