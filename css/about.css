@@ -10,6 +10,9 @@
     border-width: 1px;
     cursor: pointer;
 }
+.info-button p {
+    color: #C98264;
+}
 
 #about{
     align-items: center;
